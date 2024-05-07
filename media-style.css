@@ -1,0 +1,1628 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    .home::before {
+        width: 180%;
+        height: 520%;
+    }
+
+
+    .home-potato::before {
+        width: 180%;
+        height: 650%;
+    }
+
+    .home-mc::before {
+        width: 180%;
+        height: 600%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .about::before {
+        width: 180%;
+        height: 346%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .contact::before {
+        width: 180%;
+        height: 199%;
+    }
+
+    .project::before {
+        width: 180%;
+        height: 199%;
+    }
+
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 131px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+
+    }
+
+    .current {
+        height: 90px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 700px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*/////////////////////////////// Box Outline Outside ////////////////////////////*/
+
+    .box-outline-outside-wel,
+    .box-outline-outside-intro,
+    .box-outline-outside-gall {
+        width: 650px;
+        height: 978px;
+        margin-left: 40%;
+    }
+
+    .box-outline-outside-potato-overview {
+        width: 650px;
+        height: 1130px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+    }
+
+    .box-outline-outside-potato-progress {
+        width: 650px;
+        height: 1300px;
+        margin-left: 40%;
+        transform: translate(-50%, 77.5%);
+    }
+
+    .box-outline-outside-potato {
+        width: 650px;
+        height: 1537px;
+        margin-left: 40%;
+        transform: translate(-50%, 153.5%);
+    }
+
+
+    .box-outline-outside-death {
+        width: 650px;
+        height: 978px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+    }
+
+    .box-outline-outside-death-progress {
+        width: 650px;
+        height: 978px;
+        margin-left: 40%;
+        transform: translate(-50%, 91%);
+    }
+
+    .box-outline-outside-about {
+        width: 650px;
+        height: 1110px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+
+    }
+
+
+    .box-outline-outside-info {
+        width: 650px;
+        height: 705px;
+        margin-left: 40%;
+        transform: translate(-50%, 143%);
+
+    }
+
+
+    .box-outline-outside-wel {
+        transform: translate(-50%, -15%);
+    }
+
+    .box-outline-outside-contact {
+        width: 650px;
+        height: 890px;
+        margin-left: 40%;
+        transform: translate(-50%, -16%);
+
+    }
+
+    .box-outline-outside-projects {
+        width: 650px;
+        height: 970px;
+        margin-left: 40%;
+        transform: translate(-50%, -16%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-outside-intro {
+        transform: translate(-50%, 91%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-outside-gall {
+        transform: translate(-50%, 195%);
+    }
+
+
+    .box-outline-outside-mc-overview {
+        width: 650px;
+        height: 1142px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+    }
+
+
+    .box-outline-outside-mc-gallery {
+        width: 650px;
+        height: 1170px;
+        margin-left: 40%;
+        transform: translate(-50%, 86.5%);
+    }
+
+
+    .box-outline-outside-mc-gallery-two {
+        width: 650px;
+        height: 1270px;
+        margin-left: 40%;
+        transform: translate(-50%, 175.5%);
+    }
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+
+    .box-outline-inside-wel,
+    .box-outline-inside-intro,
+    .box-outline-inside-gall {
+        width: 630px;
+        height: 950px;
+        margin-left: 40%;
+    }
+
+    .box-outline-inside-potato-overview {
+        width: 630px;
+        height: 1100px;
+        margin-left: 40%;
+        transform: translate(-50%, -14%);
+    }
+
+
+    .box-outline-inside-potato-progress {
+        width: 630px;
+        height: 1270px;
+        margin-left: 40%;
+        transform: translate(-50%, 80.5%);
+    }
+
+    .box-outline-inside-potato {
+        width: 630px;
+        height: 1500px;
+        margin-left: 40%;
+        transform: translate(-50%, 158.5%);
+    }
+
+
+    .box-outline-inside-death {
+        width: 630px;
+        height: 950px;
+        margin-left: 40%;
+        transform: translate(-50%, -14%);
+    }
+
+
+    .box-outline-inside-death-progress {
+        width: 630px;
+        height: 950px;
+        margin-left: 40%;
+        transform: translate(-50%, 95%);
+    }
+
+
+    .box-outline-inside-about {
+        width: 630px;
+        height: 1080px;
+        margin-left: 40%;
+    }
+
+    .box-outline-inside-wel,
+    .box-outline-inside-about {
+        transform: translate(-50%, -14%);
+    }
+
+
+    .box-outline-inside-contact {
+        width: 630px;
+        height: 860px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+
+    }
+
+    .box-outline-inside-projects {
+        width: 630px;
+        height: 935px;
+        margin-left: 40%;
+        transform: translate(-50%, -15%);
+
+    }
+
+    .box-outline-inside-mc-overview {
+        width: 630px;
+        height: 1110px;
+        margin-left: 40%;
+        transform: translate(-50%, -14%);
+    }
+
+    .box-outline-inside-mc-gallery {
+        width: 630px;
+        height: 1140px;
+        margin-left: 40%;
+        transform: translate(-50%, 90%);
+    }
+
+    .box-outline-inside-mc-gallery-two {
+        width: 630px;
+        height: 1245px;
+        margin-left: 40%;
+        transform: translate(-50%, 180%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-intro {
+        transform: translate(-50%, 95%);
+    }
+
+    .box-outline-inside-info {
+        transform: translate(-50%, 150%);
+        width: 630px;
+        height: 680px;
+        margin-left: 40%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-gall {
+        transform: translate(-50%, 202%);
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+
+    .box-outline-outside-foot,
+    .box-outline-outside-foot-about,
+    .box-outline-outside-foot-contact,
+    .box-outline-outside-foot-potato,
+    .box-outline-outside-foot-projects,
+    .box-outline-outside-foot-mc,
+    .box-outline-outside-foot-death {
+        width: 180%;
+        height: 200px;
+        margin-left: 40%;
+
+    }
+
+    .box-outline-outside-foot-death {
+        transform: translate(-50%, 945%);
+
+    }
+
+    .box-outline-outside-foot-mc {
+        transform: translate(-50%, 1770%);
+
+    }
+
+    .box-outline-outside-foot-potato {
+        transform: translate(-50%, 1965%);
+
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-50%, 1460%);
+
+    }
+
+    .box-outline-outside-foot-about {
+        transform: translate(-50%, 885%);
+
+    }
+
+    .box-outline-outside-foot-contact {
+        transform: translate(-50%, 395%);
+
+    }
+
+    .box-outline-outside-foot-projects {
+        transform: translate(-50%, 430%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot,
+    .box-outline-inside-foot-about,
+    .box-outline-inside-foot-contact,
+    .box-outline-inside-foot-potato,
+    .box-outline-inside-foot-projects,
+    .box-outline-inside-foot-mc,
+    .box-outline-inside-foot-death {
+        width: 175%;
+        height: 185px;
+        margin-left: 40%;
+
+    }
+
+
+    .box-outline-inside-foot-death {
+        transform: translate(-50%, 1030%);
+
+    }
+
+
+    .box-outline-inside-foot-mc {
+        transform: translate(-50%, 1921%);
+
+    }
+
+
+    .box-outline-inside-foot-potato {
+        transform: translate(-50%, 2132%);
+    }
+
+    .box-outline-inside-foot {
+        transform: translate(-50%, 1586%);
+    }
+
+    .box-outline-inside-foot-about {
+        transform: translate(-50%, 965%);
+
+    }
+
+    .box-outline-inside-foot-contact {
+        transform: translate(-50%, 435%);
+
+    }
+
+
+    .box-outline-inside-foot-projects {
+        transform: translate(-50%, 473%);
+
+    }
+
+
+
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+    .box-outline-heading-wel,
+    .box-outline-heading-intro,
+    .box-outline-heading-about,
+    .box-outline-heading-info,
+    .box-outline-heading-death {
+        width: 610px;
+        height: 125px;
+
+    }
+
+    .box-outline-heading-potato {
+        width: 610px;
+        height: 85px;
+        transform: translate(-24%, -120%);
+    }
+
+    .box-outline-heading-about {
+        width: 610px;
+        height: 90px;
+        transform: translate(-24%, -130%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-heading-wel,
+    .box-outline-heading-death {
+        transform: translate(-24%, -85%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-heading-intro {
+        transform: translate(-24%, 750%);
+
+    }
+
+    .box-outline-heading-info {
+        transform: translate(-24%, 850%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-heading-gall {
+        transform: translate(-24%, 2170%);
+        width: 610px;
+        height: 90px;
+    }
+
+    .box-outline-heading-wel-project {
+        width: 610px;
+        height: 100px;
+        transform: translate(-24%, -100%);
+    }
+
+    .box-outline-heading-two,
+    .box-outline-heading-three,
+    .box-outline-heading-four,
+    .box-outline-heading-five,
+    .box-outline-heading-death-two,
+    .box-outline-heading-death-three {
+        height: 55px;
+    }
+
+
+    .box-outline-heading-two {
+        transform: translate(-20%, 1910%);
+        width: 510px;
+    }
+
+    .box-outline-heading-three {
+        transform: translate(-20%, 3000%);
+        width: 510px;
+    }
+
+    .box-outline-heading-death-two {
+        transform: translate(-20%, 1700%);
+        width: 510px;
+    }
+
+    .box-outline-heading-death-three {
+        transform: translate(-20%, 2540%);
+        width: 510px;
+    }
+
+    .box-outline-heading-four {
+        transform: translate(-20%, 4120%);
+        width: 510px;
+    }
+
+    .box-outline-heading-five {
+        transform: translate(-20%, 5250%);
+        width: 510px;
+    }
+
+
+
+    .box-outline-heading-two-potato {
+        transform: translate(-20%, 1910%);
+        width: 510px;
+    }
+
+    .box-outline-heading-three-potato {
+        transform: translate(-20%, 3000%);
+        width: 510px;
+    }
+
+    .box-outline-heading-four-potato {
+        transform: translate(-20%, 4370%);
+        width: 510px;
+    }
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+
+    .box-outline-paragraph-wel {
+        width: 590px;
+        height: 200px;
+        transform: translate(-23.5%, 30%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-intro {
+        width: 590px;
+        height: 180px;
+        transform: translate(-23.5%, 610%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-about {
+        width: 590px;
+        height: 450px;
+        transform: translate(-23.5%, 2%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-info {
+        width: 560px;
+        height: 420px;
+        transform: translate(-22%, 290%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-contact {
+        width: 600px;
+        height: 90px;
+        transform: translate(-25%, -115%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+
+    .box-outline-paragraph-mc {
+        width: 600px;
+        height: 245px;
+        transform: translate(-23.5%, 20%);
+    }
+
+    .box-outline-type-mc {
+        width: 600px;
+        height: 200px;
+        transform: translate(-23.5%, 155%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-death {
+        width: 600px;
+        height: 260px;
+        transform: translate(-24%, 20%);
+    }
+
+    .box-outline-type-death {
+        width: 600px;
+        height: 200px;
+        transform: translate(-23.5%, 170%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-potato {
+        width: 600px;
+        height: 260px;
+        transform: translate(-23.5%, 5%);
+    }
+
+    .box-outline-type-potato {
+        width: 600px;
+        height: 200px;
+        transform: translate(-23.5%, 145%);
+    }
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .heading-intro h1,
+    .heading-introduction h1,
+    .heading-gallery h1,
+    .heading-about h1,
+    .heading-info h1 {
+        line-height: 50px;
+        width: 710px;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-intro h1 {
+        transform: translate(-28%, -125%);
+    }
+
+    .heading-about h1 {
+        transform: translate(-28%, -250%);
+    }
+
+    .heading-intro-project h1 {
+        line-height: 50px;
+        width: 580px;
+        font-size: 48px;
+        text-align: center;
+        transform: translate(-23%, -215%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-introduction h1 {
+        width: 600px;
+        transform: translate(-24.5%, 917%);
+        text-align: center;
+    }
+
+    .heading-info h1 {
+        width: 600px;
+        transform: translate(-24.5%, 1040%);
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-gallery h1 {
+        transform: translate(-28%, 3890%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .mc-title h1 {
+        width: 500px;
+        height: 10px;
+        font-size: 46px;
+        transform: translate(-20%, -1350%);
+
+    }
+
+
+    .potato-title h1 {
+        width: 500px;
+        height: 10px;
+        font-size: 46px;
+        transform: translate(-20%, -1155%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-two h1,
+    .heading-three h1,
+    .heading-four h1,
+    .heading-five h1,
+    .heading-two-side h1,
+    .heading-three-side h1,
+    .heading-four-potato h1 {
+        width: 600px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-two h1 {
+        transform: translate(-25%, 2660%);
+        font-size: 30px;
+    }
+
+    .heading-three h1 {
+        transform: translate(-25%, 4555%);
+        font-size: 28px;
+    }
+
+    .heading-four h1 {
+        transform: translate(-25%, 5780%);
+        font-size: 30px;
+    }
+
+    .heading-five h1 {
+        transform: translate(-25%, 7380%);
+        font-size: 30px;
+    }
+
+    /*/////////////////////////////////////*/
+
+
+    .heading-two-side h1 {
+        transform: translate(-25%, 2370%);
+        font-size: 30px;
+    }
+
+    .heading-three-side h1 {
+        transform: translate(-25%, 3555%);
+        font-size: 30px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-four-potato h1 {
+        transform: translate(-25%, 6130%);
+        font-size: 30px;
+    }
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .welcome p {
+        width: 565px;
+        transform: translate(-22%, 35%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .introduction p {
+        width: 530px;
+        transform: translate(-20%, 860%);
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .about-me p {
+        width: 590px;
+        transform: translate(-22%, 2.5%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .info p {
+        width: 500px;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 5px;
+        transform: translate(-22%, 345%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .contact-me p {
+        width: 600px;
+        transform: translate(-22%, -300%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .details p {
+        width: 580px;
+        transform: translate(-20%, 20%);
+        z-index: 1;
+
+    }
+
+    .type p {
+        width: 440px;
+        transform: translate(-23.5%, 194%);
+        z-index: 1;
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .details-death p {
+        width: 580px;
+        transform: translate(-20%, 17%);
+        z-index: 1;
+
+    }
+
+    .type-death p {
+        width: 440px;
+        transform: translate(-27%, 212%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .details-potato p {
+        width: 580px;
+        transform: translate(-20%, 0%);
+        z-index: 1;
+
+    }
+
+    .type-potato p {
+        display: none;
+    }
+
+    .type-potato-phone p {
+        width: 300px;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-35%, 180%);
+        z-index: 1;
+        color: #1E1E1E;
+        font-family: Overlock;
+        font-weight: 900;
+    }
+
+
+    .type-potato-phone-two p {
+        width: 200px;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(120%, 180%);
+        z-index: 1;
+        color: #1E1E1E;
+        font-family: Overlock;
+        font-weight: 900;
+    }
+
+    /*/////////////////////////////////////*/
+
+
+    .section-about p,
+    .section-home p,
+    .section-contact p,
+    .section-potato p,
+    .section-projects p,
+    .section-mc p,
+    .section-death p {
+        font-size: 20px;
+        width: 500px;
+
+    }
+
+    /*/////////////////////////////////////*/
+    .section-mc p {
+        transform: translate(-20%, 3590px);
+    }
+
+    .section-about p {
+        transform: translate(-20%, 1825px);
+    }
+
+    .section-home p {
+        transform: translate(-20%, 2980px);
+    }
+
+    .section-contact p {
+        transform: translate(-20%, 840px);
+    }
+
+    .section-potato p {
+        transform: translate(-20%, 3970px);
+
+    }
+
+    .section-death p {
+        transform: translate(-20%, 1945px);
+    }
+
+    .section-projects p {
+        transform: translate(-20%, 900px);
+    }
+
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+
+    .protrait img {
+        width: 440px;
+        height: 440px;
+        transform: translate(-15%, 317%);
+    }
+
+    .protrait-about img {
+        width: 240px;
+        height: 240px;
+        transform: translate(75%, 515%);
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .welcome-image img {
+        width: 460px;
+        height: 460px;
+        transform: translate(0%, 75%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .self-image img {
+        width: 420px;
+        height: 420px;
+        transform: translate(-15%, 115%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .card-pile {
+        display: none;
+    }
+
+    .card-side {
+        scale: 80%;
+        rotate: -5deg;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-31%, -15%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-phone {
+        width: 460px;
+        height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 940%);
+    }
+
+    .mc {
+        display: none;
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-overview img {
+        width: 550px;
+        height: 390px;
+        transform: translate(-23%, 138%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-box-one img {
+        width: 350px;
+        height: 250px;
+        transform: translate(-40%, 450%);
+    }
+
+    .mc-box-two img {
+        width: 350px;
+        height: 250px;
+        transform: translate(30%, 555%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-handbook img {
+        width: 440px;
+        height: 210px;
+        transform: translate(-32%, 820%);
+    }
+
+    .mc-handbook-two img {
+        width: 440px;
+        height: 210px;
+        transform: translate(4%, 925%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-card img {
+        width: 190px;
+        height: 260px;
+        transform: translate(-35%, 900%);
+    }
+
+    .mc-card-two img {
+        width: 190px;
+        height: 260px;
+        transform: translate(95%, 900%);
+    }
+
+    .mc-card-three img {
+        width: 190px;
+        height: 260px;
+        transform: translate(-35%, 1005%);
+    }
+
+    .mc-card-four img {
+        width: 190px;
+        height: 260px;
+        transform: translate(95%, 1005%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-item img {
+        width: 240px;
+        height: 240px;
+        transform: translate(15%, 1340%);
+    }
+
+    .mc-item-two img {
+        width: 240px;
+        height: 240px;
+        transform: translate(-44%, 1235%);
+    }
+
+    .mc-item-three img {
+        width: 240px;
+        height: 240px;
+        transform: translate(70%, 1235%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .death {
+        display: none;
+    }
+
+
+    .death-phone {
+        width: 460px;
+        height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 1050%);
+    }
+
+
+
+    .death-overview img {
+        width: 360px;
+        height: 450px;
+        transform: translate(28%, 80%);
+        z-index: 1;
+    }
+
+    .death-progress-one img {
+        width: 270px;
+        height: 360px;
+        transform: translate(-50%, 282%);
+    }
+
+    .death-progress-two img {
+        width: 270px;
+        height: 360px;
+        transform: translate(65%, 282%);
+    }
+
+    .death-progress-three img {
+        width: 270px;
+        height: 360px;
+        transform: translate(5%, 409%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .potato {
+        display: none;
+    }
+
+    .potato-phone {
+        width: 460px;
+        height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 1160%);
+    }
+
+    .potato-menu-one img {
+        width: 350px;
+        height: 250px;
+        transform: translate(-40%, 450%);
+    }
+
+    .potato-menu-two img {
+        width: 350px;
+        height: 250px;
+        transform: translate(30%, 555%);
+    }
+
+    .potato-sprites img {
+        width: 300px;
+        height: 300px;
+        transform: translate(-50%, 570%);
+    }
+
+    .potato-sprites-two img {
+        width: 300px;
+        height: 300px;
+        transform: translate(0%, 660%);
+    }
+
+    .potato-sprites-three img {
+        width: 300px;
+        height: 300px;
+        transform: translate(50%, 570%);
+    }
+
+    .potato-event-one img {
+        width: 409px;
+        height: 266px;
+        transform: translate(-35%, 935%);
+    }
+
+    .potato-event-two img {
+        width: 409px;
+        height: 266px;
+        transform: translate(12%, 1040%);
+    }
+
+    .potato-event-three img {
+        width: 409px;
+        height: 266px;
+        transform: translate(-35%, 1145%);
+    }
+
+    .potato-event-four img {
+        width: 409px;
+        height: 266px;
+        transform: translate(12%, 1250%);
+    }
+
+    .potato-event-five img {
+        width: 409px;
+        height: 266px;
+        transform: translate(-35%, 1355%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .facebook-home {
+        transform: translate(40%, 2920px);
+    }
+
+    .twitter-home {
+        transform: translate(155%, 2920px);
+    }
+
+    .instagram-home {
+        transform: translate(280%, 2920px);
+    }
+
+    .youtube-home {
+        transform: translate(400%, 2920px);
+    }
+
+    .snapchat-home {
+        transform: translate(520%, 2920px);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .facebook-about {
+        transform: translate(40%, 1770px);
+    }
+
+    .twitter-about {
+        transform: translate(155%, 1770px);
+    }
+
+    .instagram-about {
+        transform: translate(280%, 1770px);
+    }
+
+    .youtube-about {
+        transform: translate(400%, 1770px);
+    }
+
+    .snapchat-about {
+        transform: translate(520%, 1770px);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .facebook-contact {
+        transform: translate(40%, 780px);
+    }
+
+    .twitter-contact {
+        transform: translate(155%, 780px);
+    }
+
+    .instagram-contact {
+        transform: translate(280%, 780px);
+    }
+
+    .youtube-contact {
+        transform: translate(400%, 780px);
+    }
+
+    .snapchat-contact {
+        transform: translate(520%, 780px);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .facebook-projects {
+        transform: translate(40%, 850px);
+    }
+
+    .twitter-projects {
+        transform: translate(155%, 850px);
+    }
+
+    .instagram-projects {
+        transform: translate(280%, 850px);
+    }
+
+    .youtube-projects {
+        transform: translate(400%, 850px);
+    }
+
+    .snapchat-projects {
+        transform: translate(520%, 850px);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .facebook-mc {
+        transform: translate(40%, 3540px);
+    }
+
+    .twitter-mc {
+        transform: translate(155%, 3540px);
+    }
+
+    .instagram-mc {
+        transform: translate(280%, 3540px);
+    }
+
+    .youtube-mc {
+        transform: translate(400%, 3540px);
+    }
+
+    .snapchat-mc {
+        transform: translate(520%, 3540px);
+    }
+
+    /*/////////////////////////////////////*/
+    .facebook-death {
+        transform: translate(40%, 1880px);
+    }
+
+    .twitter-death {
+        transform: translate(155%, 1880px);
+    }
+
+    .instagram-death {
+        transform: translate(280%, 1880px);
+    }
+
+    .youtube-death {
+        transform: translate(400%, 1880px);
+    }
+
+    .snapchat-death {
+        transform: translate(520%, 1880px);
+    }
+
+    /*/////////////////////////////////////*/
+
+
+    .facebook-potato {
+        transform: translate(40%, 3910px);
+    }
+
+    .twitter-potato {
+        transform: translate(155%, 3910px);
+    }
+
+    .instagram-potato {
+        transform: translate(280%, 3910px);
+    }
+
+    .youtube-potato {
+        transform: translate(400%, 3910px);
+    }
+
+    .snapchat-potato {
+        transform: translate(520%, 3910px);
+    }
+
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    .patreon,
+    .more-about-me {
+        width: 280px;
+        height: 80px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .patreon {
+        transform: translate(-50%, 360%);
+        font-size: 36px;
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .more-about-me {
+        transform: translate(5%, 1505%);
+        font-size: 22px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .view-more {
+        width: 220px;
+        height: 40px;
+        transform: translate(20%, 6075%);
+        font-size: 18px;
+        line-height: 40px;
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .side-button-right {
+        display: none;
+    }
+
+    .side-button-left {
+        display: none;
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+    .dia-left img {
+        transform: translate(-128%, 332%);
+    }
+
+    .dia-right img {
+        transform: translate(378%, -69%);
+    }
+
+    .dia-left-two img {
+        transform: translate(-128%, 874%);
+    }
+
+    .dia-right-two img {
+        transform: translate(378%, 473%);
+    }
+
+    .dia-left-three img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-128%, 1406%);
+    }
+
+    .dia-right-three img {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(378%, 1005%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .dia-left-about img {
+        transform: translate(-128%, 390%);
+    }
+
+    .dia-right-about img {
+        transform: translate(378%, -79%);
+    }
+
+
+    .dia-left-two-about img {
+        transform: translate(-128%, 794%);
+    }
+
+    .dia-right-two-about img {
+        transform: translate(378%, 534%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .dia-left-contact img {
+        transform: translate(-128%, 287%);
+    }
+
+    .dia-right-contact img {
+        transform: translate(378%, -68%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .dia-left-projects img {
+        transform: translate(-128%, 320%);
+    }
+
+    .dia-right-projects img {
+        transform: translate(378%, -73%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .dia-left-mc img {
+        transform: translate(-128%, 404%);
+    }
+
+    .dia-right-mc img {
+        transform: translate(378%, -81%);
+    }
+
+    .dia-left-two-mc img {
+        transform: translate(-128%, 1038%);
+    }
+
+    .dia-right-two-mc img {
+        transform: translate(378%, 537%);
+    }
+
+    .dia-left-three-mc img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-128%, 1729%);
+    }
+
+    .dia-right-three-mc img {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(378%, 1173%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .dia-left-potato img {
+        transform: translate(-128%, 399%);
+    }
+
+    .dia-right-potato img {
+        transform: translate(378%, -81%);
+    }
+
+    .dia-left-two-potato img {
+        transform: translate(-128%, 1104%);
+    }
+
+    .dia-right-two-potato img {
+        transform: translate(378%, 536%);
+    }
+
+    .dia-left-three-potato img {
+        transform: translate(-128%, 1934%);
+    }
+
+    .dia-right-three-potato img {
+        transform: translate(378%, 1245%);
+    }
+
+    /*///////////////////////////////// Form ////////////////////////////*/
+
+    .form-information-outside {
+        width: 415px;
+        height: 575px;
+        transform: translate(-13%, 5%);
+        z-index: 1;
+    }
+
+    .form-inside {
+        width: 370px;
+        height: 533px;
+    }
+
+    input[type="text"],
+    .detail {
+        font-size: 18px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .form-clear,
+    .form-sumbit {
+        width: 200px;
+        height: 70px;
+        transform: translate(2%, 850%);
+    }
+
+
+
+    .mc-phone-projects {
+        width: 460px;
+        max-width: 460px;
+        max-height: 220px;
+        height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 20%);
+    }
+
+    .death-phone-projects {
+        width: 460px;
+        height: 220px;
+        max-width: 460px;
+        max-height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 135%);
+    }
+
+
+    .potato-phone-projects {
+        width: 460px;
+        height: 220px;
+        max-width: 460px;
+        max-height: 220px;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16%, 250%);
+    }
+
+
+
+    .phone-projects {
+        display: block;
+
+    }
+
+
+    .desktop-project,
+    .mc-projects,
+    .death-projects,
+    .potato-projects,
+    .hover-text-overlay {
+        display: none;
+
+    }
+
+
+}
